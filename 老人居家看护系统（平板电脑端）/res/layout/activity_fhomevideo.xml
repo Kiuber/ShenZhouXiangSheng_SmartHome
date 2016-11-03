@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/housemainback">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="550dp"
+        android:layout_height="fill_parent"
+        android:src="@android:drawable/alert_dark_frame" 
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/camera_upButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/controltop_selector"/>
+
+        <Button
+            android:id="@+id/camera_leftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/controlleft_selector" />
+
+        <Button
+            android:id="@+id/camera_rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/controlright_selector" />
+
+        <Button
+            android:id="@+id/camera_downButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="75dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/controlbottom_selector" />
+
+        <Button
+            android:id="@+id/camera_turnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/controlpause" />
+
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/camera_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="30dp"
+            android:text="监控状态" 
+            android:textColor="#90EE90"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/video_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/camera_status"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="51dp"
+            android:text="录音状态" 
+            android:textColor="#90EE90"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/homevideo_defendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="40dp"
+            android:text="已布防" 
+            android:textColor="#D2691E"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/homevideo_defendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homevideo_defendText"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/defendoff"/>
+
+		<ToggleButton
+		    android:id="@+id/tbn_audio"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/homevideo_defendButton"
+		    android:layout_marginTop="80dp"
+		    android:layout_marginRight="20dp"
+		    android:background="@drawable/soundon"
+		    android:textOff=""
+            android:textOn=""/>
+
+		<ToggleButton
+		    android:id="@+id/tbn_talk"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/tbn_audio"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginTop="10dp"
+		    android:background="@drawable/dailon"
+		    android:textOff=""
+		    android:textOn="" />
+
+		<ToggleButton
+		    android:id="@+id/tbn_record"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="20dp"
+		    android:layout_below="@+id/tbn_talk"
+		    android:layout_marginTop="10dp"
+		    android:textOff=""
+		    android:textOn="" 
+		    android:background="@drawable/recordon"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

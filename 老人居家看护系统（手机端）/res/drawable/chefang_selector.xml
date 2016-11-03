@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/sceneclick_safecancel_on"/>
+	<item android:drawable="@drawable/scene_normal_safecancel_on"/>
+</selector>

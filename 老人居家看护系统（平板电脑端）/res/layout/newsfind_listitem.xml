@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <CheckBox
+        android:id="@+id/listitem_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/listitem_timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="2013-3-5 24:00:00" 
+        android:textColor="#6495ED"/>
+
+    <TextView
+        android:id="@+id/listitem_classText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:text="烟感报警" 
+        android:textColor="#6495ED"/>
+
+</RelativeLayout>

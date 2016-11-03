@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- 头部标题的字体和颜色 -->
+    <style name="main_title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- 系统设置中操作名称的字体和颜色 -->
+    <style name="systemset_class">
+        <item name="android:textColor">#D2691E</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- 系统设置中子操作名称的字体和颜色 -->
+    <style name="systemsets_class">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="dialog_class">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- 登陆框标题 -->
+    <style name="login_title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#edfaff</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+	    <item name="android:gravity">right</item>
+	    <item name="android:paddingRight">10dp</item>
+    </style>
+    <!-- 登陆框内容 -->
+    <style name="login_content">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#084b82</item>
+    </style>
+
+</resources>

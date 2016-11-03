@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    <!-- <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            style="@style/login_title"
+            android:text="网关IP：" />
+        <EditText
+	        android:id="@+id/login_wipEdit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/lo_input_selector" 
+	        style="@style/login_content"
+	        android:paddingLeft="5dp" >
+
+        <requestFocus />
+    	</EditText>        
+    </LinearLayout> -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+      
+        >
+
+        <TextView
+            style="@style/login_title"
+            android:text="监控IP：" />
+        <EditText
+	        android:id="@+id/login_jipEdit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/lo_input_selector" 
+	        style="@style/login_content"
+	        android:paddingLeft="5dp" >
+
+        <requestFocus />
+    	</EditText>        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/login_title"
+            android:text="监控端口：" />
+        <EditText
+	        android:id="@+id/login_portEdit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/lo_input_selector" 
+	        style="@style/login_content"
+	        android:paddingLeft="5dp" >
+
+        <requestFocus />
+    	</EditText>        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/login_title"
+            android:text="用户名：" />
+        <EditText
+	        android:id="@+id/login_nameEdit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/lo_input_selector" 
+	        style="@style/login_content"
+	        android:paddingLeft="5dp" >
+
+        <requestFocus />
+    	</EditText>        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            style="@style/login_title"
+            android:text="密码：" />
+        <EditText
+	        android:id="@+id/login_passwordEdit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/lo_input_selector" 
+	        style="@style/login_content"
+	        android:paddingLeft="5dp"
+	        android:password="true" >
+
+        <requestFocus />
+    	</EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+	    android:background="@drawable/login_selector" />
+
+</LinearLayout>
